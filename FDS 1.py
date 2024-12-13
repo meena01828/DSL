@@ -9,9 +9,6 @@ def average(listofmarks):
     print("Total Marks : ", sum)
     print("Average Marks : {:.2f}".format(avg))
 
-#<----------------------------------------------------------------------------------------------------->
-
-# Function for Highest score in the test for the class
 
 def Maximum(listofmarks):
     for i in range(len(listofmarks)):
@@ -23,9 +20,6 @@ def Maximum(listofmarks):
             Max=listofmarks[i]
     return(Max)
 
-#<------------------------------------------------------------------------------------------------------>
-
-# Function for Lowest score in the test for the class
 
 def Minimum(listofmarks):
     for i in range(len(listofmarks)):
@@ -37,9 +31,6 @@ def Minimum(listofmarks):
             Min=listofmarks[i]
     return(Min)
 
-#<------------------------------------------------------------------------------------------------------->
-
-# Function for counting the number of students absent for the test
 
 def absentcount(listofmarks):
     count=0
@@ -48,9 +39,7 @@ def absentcount(listofmarks):
             count+=1
     return(count)
 
-#<------------------------------------------------------------------------------------------------------->
 
-# Function for displaying marks with highest frequency
 def maxFrequency(listofmarks):
     i=0
     Max=0
@@ -64,10 +53,6 @@ def maxFrequency(listofmarks):
         i=i+1
     return(mark,Max)
 
-
-#<------------------------------------------------------------------------------------------------------->
-
-# Main function
 
 marksinFDS=[]
 numberofstudents=int(input("Enter total number of students : "))
